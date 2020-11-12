@@ -16,7 +16,6 @@ def find_min_in_nested_arrays(src)
   new_array
 end
 
-
 # This works! But doesn't use loops within loops
 #def find_min_in_nested_arrays(src)
 #  i = 0
@@ -25,5 +24,12 @@ end
 #    new_array << src[i].sort.shift
 #    i += 1
 #  end
+#  new_array
+#end
+
+#This works!
+#def find_min_in_nested_arrays(src)
+#  new_array = []
+#  src.each {|day| new_array << day.sort[0]}
 #  new_array
 #end
